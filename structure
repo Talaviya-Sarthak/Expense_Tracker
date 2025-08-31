@@ -1,0 +1,94 @@
+D:\xampp\htdocs>dir project
+ Volume in drive D is New Volume
+ Volume Serial Number is 2C4A-63D0
+
+ Directory of D:\xampp\htdocs\project
+
+25-08-2025  18:07    <DIR>          .
+26-08-2025  09:41    <DIR>          ..
+26-08-2025  10:54    <DIR>          BACKEND
+25-08-2025  18:07    <DIR>          FRONTEND
+               0 File(s)              0 bytes
+               4 Dir(s)  251,026,403,328 bytes free
+
+D:\xampp\htdocs>cd project
+
+D:\xampp\htdocs\PROJECT>dir backend,frontend
+ Volume in drive D is New Volume
+ Volume Serial Number is 2C4A-63D0
+
+ Directory of D:\xampp\htdocs\PROJECT\backend
+
+26-08-2025  10:54    <DIR>          .
+25-08-2025  18:07    <DIR>          ..
+26-08-2025  09:31             1,218 handle_dashboard.php
+26-08-2025  09:34             4,063 handle_download.php
+26-08-2025  09:32             1,892 handle_expense.php
+26-08-2025  09:33             2,100 handle_forgot_password.php
+26-08-2025  09:34             2,296 handle_history.php
+26-08-2025  09:32             1,257 handle_income.php
+26-08-2025  09:35             1,571 handle_interest_calculation.php
+26-08-2025  10:54               848 handle_login.php
+26-08-2025  09:33             1,635 handle_password_creation.php
+26-08-2025  09:33               442 handle_profile.php
+26-08-2025  09:34             1,115 handle_profile_update.php
+26-08-2025  09:35             2,737 handle_receipt_upload.php
+26-08-2025  11:11             3,935 handle_signup.php
+25-08-2025  22:28             2,745 signup.php
+              14 File(s)         27,854 bytes
+
+ Directory of D:\xampp\htdocs\PROJECT\frontend
+
+25-08-2025  18:07    <DIR>          .
+25-08-2025  18:07    <DIR>          ..
+25-08-2025  19:12            35,986 darkmode.css
+25-08-2025  22:13    <DIR>          IMAGES
+26-08-2025  10:54    <DIR>          PAGES
+25-08-2025  19:56            23,208 script.js
+31-07-2025  14:57             8,955 slider.html
+30-07-2025  21:07            18,394 style.css
+               4 File(s)         86,543 bytes
+               4 Dir(s)  251,026,403,328 bytes free
+
+D:\xampp\htdocs\PROJECT>cd frontend
+
+D:\xampp\htdocs\PROJECT\FRONTEND>dir pages,images
+ Volume in drive D is New Volume
+ Volume Serial Number is 2C4A-63D0
+
+ Directory of D:\xampp\htdocs\PROJECT\FRONTEND\pages
+
+26-08-2025  10:54    <DIR>          .
+25-08-2025  18:07    <DIR>          ..
+25-08-2025  19:16             4,562 10profile.html
+25-08-2025  19:02             4,841 11profileupdate.html
+25-08-2025  19:04             5,565 12DownloadExpenses.html
+25-08-2025  19:16             4,473 13histroy.html
+25-08-2025  19:16             3,693 14RecieptScanner.html
+25-08-2025  19:17             5,780 15Savingschemes.html
+25-08-2025  20:10             4,783 1home.html
+26-08-2025  10:55             2,380 2login.html
+26-08-2025  09:55             5,250 3signup.html
+25-08-2025  18:46             4,413 4dashboard.html
+25-08-2025  19:15             4,311 5Add.html
+25-08-2025  19:15             6,038 6expense.html
+25-08-2025  19:16             5,490 7income.html
+25-08-2025  22:29             2,786 8password.html
+25-08-2025  19:18             2,868 9fpassword.html
+              15 File(s)         67,233 bytes
+
+ Directory of D:\xampp\htdocs\PROJECT\FRONTEND\images
+
+25-08-2025  22:13    <DIR>          .
+25-08-2025  18:07    <DIR>          ..
+15-07-2025  22:43         1,407,655 apple.png
+15-07-2025  22:31         1,395,956 facebook.png
+15-07-2025  22:24         1,339,586 google.png
+15-07-2025  23:01         1,421,437 logo.png
+25-08-2025  22:13    <DIR>          uploads
+               4 File(s)      5,564,634 bytes
+               3 Dir(s)  251,026,403,328 bytes free
+
+
+
+
