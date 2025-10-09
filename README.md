@@ -43,44 +43,49 @@ The app includes secure authentication, modern UI, and dynamic charts for visual
 ---
 
 ## 📁 Project Structure
-
 FinovateX/
+│
 ├── BACKEND/
 │ ├── config.php # Database connection & helper functions
-│ ├── handle_*.php # Backend route handlers (login, signup, etc.)
-│ └── schema.sql # MySQL schema (users, incomes, expenses, receipts)
+│ ├── handle_login.php # Handles user login
+│ ├── handle_signup.php # Handles user registration
+│ ├── handle_dashboard.php # Fetches dashboard data
+│ ├── handle_add.php # Adds new income/expense entry
+│ ├── handle_download.php # Exports CSV/JSON/PDF
+│ ├── handle_receipt.php # Uploads and manages receipts
+│ ├── handle_profile.php # Fetches user details
+│ ├── handle_profileupdate.php # Updates user profile
+│ └── schema.sql # MySQL schema for all tables
 │
 ├── FRONTEND/
 │ ├── IMAGES/
 │ │ ├── logo.png
-│ │ ├── google.png, apple.png, facebook.png
-│ │ └── uploads/ # Writable folder for user profile pics
+│ │ ├── google.png
+│ │ ├── apple.png
+│ │ ├── facebook.png
+│ │ └── uploads/ # Stores uploaded profile pictures
 │ │
 │ └── PAGES/
-│ ├── index.html
-│ ├── 2login.html
-│ ├── 3signup.html
-│ ├── 4dashboard.html
-│ ├── 5Add.html
-│ ├── 6expense.html
-│ ├── 7income.html
-│ ├── 8password.html
-│ ├── 9fpassword.html
-│ ├── 10profile.html
-│ ├── 11profileupdate.html
-│ ├── 12DownloadExpenses.html
-│ ├── 13histroy.html
-│ ├── 14RecieptScanner.html
-│ └── 15Savingschemes.html
+│ ├── index.html # Landing Page
+│ ├── 2login.html # Login Page
+│ ├── 3signup.html # Signup Page
+│ ├── 4dashboard.html # Dashboard Overview
+│ ├── 5Add.html # Add Transaction Menu
+│ ├── 6expense.html # Add Expense
+│ ├── 7income.html # Add Income
+│ ├── 8password.html # Change Password
+│ ├── 9fpassword.html # Forgot Password
+│ ├── 10profile.html # User Profile
+│ ├── 11profileupdate.html # Update Profile Info
+│ ├── 12DownloadExpenses.html # Export Data Page
+│ ├── 13histroy.html # Transaction History with Charts
+│ ├── 14RecieptScanner.html # Receipt Upload/Viewer
+│ └── 15Savingschemes.html # Savings Calculator
 │
-├── style.css # Light theme styles
-├── darkmode.css # Dark theme styles
-├── script.js # JS for navigation, theme, charts, and forms
-└── README.md
-
-yaml
-Copy code
-
+├── style.css # Default Light Mode Styles
+├── darkmode.css # Dark Mode Styles
+├── script.js # JS for navigation, theme, and charts
+└── README.md # Project Documentation
 ---
 
 ## 🚀 Quick Start (Local Setup)
@@ -173,3 +178,4 @@ Developer: Talaviya Sarthak
 Email: support@finovatex.com
 GitHub: Expense_Tracker
 Demo: FinovateX Live (coming soon)
+
