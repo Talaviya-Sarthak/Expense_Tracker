@@ -12,7 +12,7 @@ if ($conn->connect_error) {
 }
 
 // Define base URL for frontend pages
-define("FRONTEND_PAGES_URL", "/PROJECT/FRONTEND/PAGES/");
+define("FRONTEND_PAGES_URL", "https://finovatex.infinityfreeapp.com/FinovateX/FRONTEND/PAGES/");
 
 // Redirect helper function
 function redirect($url)
