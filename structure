@@ -1,0 +1,51 @@
+project/
+│
+├── BACKEND/
+│   ├── config.php
+│   ├── handle_dashboard.php
+│   ├── handle_download.php
+│   ├── handle_expense.php
+│   ├── handle_forgot_password.php
+│   ├── handle_history.php
+│   ├── handle_income.php
+│   ├── handle_interest_calculation.php
+│   ├── handle_login.php
+│   ├── handle_password_creation.php
+│   ├── handle_profile.php
+│   ├── handle_profile_update.php
+│   ├── handle_receipt_upload.php
+│   └── handle_signup.php
+│   |__ get_transcations.php
+│
+├── FRONTEND/
+│   ├── darkmode.css
+│   ├── script.js
+│   ├── slider.html
+│   ├── style.css
+│   │
+│   ├── IMAGES/
+│   │   ├── apple.png
+│   │   ├── facebook.png
+│   │   ├── google.png
+│   │   ├── logo.png
+│   │   └── uploads/
+│   │       └── [uploaded files at runtime]
+│   │
+│   └── PAGES/
+│       ├── 1home.html
+│       ├── 10profile.html
+│       ├── 11profileupdate.html
+│       ├── 12DownloadExpenses.html
+│       ├── 13histroy.html
+│       ├── 14RecieptScanner.html
+│       ├── 15Savingschemes.html
+│       ├── 2login.html
+│       ├── 3signup.html
+│       ├── 4dashboard.html
+│       ├── 5Add.html
+│       ├── 6expense.html
+│       ├── 7income.html
+│       ├── 8password.html
+│       └── 9fpassword.html
+│
+└── structure

@@ -1,0 +1,109 @@
+<!-- signup.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+    <link id="themeStylesheet" rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="header-left">
+            <img src="../IMAGES/logo.png" alt="Company Logo" width="40" height="40">
+            <strong>FinovateX</strong>
+        </div>
+       
+    </header>
+
+
+    <main class="main-section">
+        <div class="signup-container">
+            <div class="title-section">
+                <h2>Sign Up</h2>
+            </div>
+            <form action="../../BACKEND/handle_signup.php" method="POST" >
+
+                <div class="personal-information">
+                    <div class="form-group">
+                        <label for="username">Username: </label>
+                        <input type="text" id="username" name="username" placeholder="Username" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email: </label>
+                        <input type="email" id="email" name="email" placeholder="Email" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="phone">Phone Number:</label>
+                        <input type="tel" id="phone" name="phone" placeholder="Phone Number" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="country">Country:</label>
+                        <input type="text" id="country" name="country" placeholder="Your Country" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="gender">Gender:</label>
+                        <select id="gender" name="gender" required>
+                            <option value="">--Select--</option>
+                            <option value="male">Male</option>
+                            <option value="female">Female</option>
+                            <option value="other">Other</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="income">Monthly Income:</label>
+                        <input type="text" id="income" name="income" placeholder="Enter Monthly Income" required>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="profile-agreements">
+                        <label for="profile-pic">Upload Profile Picture:</label>
+                        <input type="file" id="profile-pic" name="profile_pic">
+
+                    </div>
+                </div>
+
+                <div class="form-buttons" style="margin-left: 35%;">
+                    <button type="submit" class="signup-button" name="signup">Sign Up</button>
+                </div>
+                <br>
+                <hr>
+                <p>Or Sign Up Using:</p>
+
+                <div style="display: flex; gap: 10px; justify-content: center; margin-top: 20px;">
+                    <button
+                        style="width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid #2D3436; display: flex; align-items: center; justify-content: center; background-color: rgb(214, 221, 224);">
+                        <img src="../IMAGES/google.png" alt="google" style="width: 20px; height: 20px;" />
+                    </button>
+                    <button
+                        style="width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid #2D3436; display: flex; align-items: center; justify-content: center; background-color: rgb(214, 221, 224);">
+                        <img src="../IMAGES/apple.png" alt="apple" style="width: 20px; height: 20px;" />
+                    </button>
+                    <button
+                        style="width: 40px; height: 40px; border-radius: 50%; border: 1.5px solid  #575e60; display: flex; align-items: center; justify-content: center; background-color: rgb(214, 221, 224);">
+                        <img src="../IMAGES/facebook.png" alt="facebook" style="width: 20px; height: 20px;" />
+                    </button>
+                </div>
+
+            </form>
+
+            <div class="extra-links">
+                <p>Already have an account? <a href="2login.html">Login</a></p>
+            </div>
+        </div>
+    </main>
+
+    <footer class="footer-section">
+        <hr>
+        <div><strong>Company Name:</strong> FinovateX</div>
+        <div><strong>Address:</strong> 1234 Tech Street, Ahmedabad, Ahmedabad</div>
+        <div><strong>Email:</strong> support@FinovateX.com</div>
+        <div><strong>Phone:</strong> +123 456 7890</div>
+        <div>&copy; FinovateX</div>
+    </footer>
+    <script src="../script.js"></script>
+</body>
+
+</html>

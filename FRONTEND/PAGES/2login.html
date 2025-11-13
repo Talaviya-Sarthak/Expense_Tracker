@@ -1,0 +1,63 @@
+<!-- 2login.html -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link id="themeStylesheet" rel="stylesheet" href="../style.css">
+</head>
+
+<body>
+    <header class="header-section">
+        <div class="header-left">
+            <img src="../IMAGES/logo.png" alt="Company Logo" width="40" height="40">
+            <strong>FinovateX</strong>
+        </div>
+        
+    </header>
+
+    <main class="main-section">
+        <div class="login-container">
+            <div class="title-section">
+                <h2>Login</h2>
+            </div>
+
+            <form action="../../BACKEND/handle_login.php" method="post" class="form-section" id="login-form">
+                <div class="form-group">
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username" placeholder="Username" required>
+                </div><br>
+
+                <div class="form-group">
+                    <label for="password">Password:</label>
+                    <input type="password" id="password" name="password" placeholder="Password" required>
+                </div><br>
+
+                <div class="form-buttons" style="margin-left: 38%;">
+                    <button type="submit" class="btn-login">Login</button>
+                </div>
+            </form>
+
+            <div class="extra-links">
+                <p><a href="9fpassword.html">Forgot password?</a></p>
+                <p>Don't have an account? <a href="3signup.html">Sign up</a></p>
+            </div>
+        </div>
+        <div class="extra"></div>
+    </main>
+
+    <footer class="footer-section">
+        <hr>
+        <div><strong>Company Name:</strong> FinovateX</div>
+        <div><strong>Address:</strong> 1234 Tech Street, Ahmedabad, Ahmedabad</div>
+        <div><strong>Email:</strong> support@FinovateX.com</div>
+        <div><strong>Phone:</strong> +123 456 7890</div>
+        <div>&copy; FinovateX</div>
+    </footer>
+
+    <script src="../script.js"></script>
+</body>
+
+</html>
